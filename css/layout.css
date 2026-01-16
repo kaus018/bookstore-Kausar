@@ -1,0 +1,18 @@
+header, footer {
+  background-color: #1f2933;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.catalog,
+.book-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
